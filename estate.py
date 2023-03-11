@@ -11,6 +11,7 @@ class EsatateAbastract(BaseClass):
         self.address=address
         super().__init__(*args, **kwargs)
 
+
     @abstractclassmethod
     def show_description(self):
         pass
