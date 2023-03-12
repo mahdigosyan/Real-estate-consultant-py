@@ -6,6 +6,9 @@ class Sell(BaseClass):
         self.convertable=convertable
         super().__init__(*args, **kwargs)
 
+        def show_price(self):
+            print(f"{self.price_per_meter}\t discount: {self.discountable}\t convert: {self.convertable} ")
+
 
 class Rent(BaseClass):
     def __init__(self,initial_price,monthly_price,convertable,discountble, *args, **kwargs):
@@ -14,3 +17,4 @@ class Rent(BaseClass):
         self.convertable=convertable
         self.discountble=discountble
         super().__init__(*args, **kwargs)
+
