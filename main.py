@@ -22,6 +22,7 @@ if __name__=="__main__":
         rooms_count=6 , built_year=1380 , region=reg1, address='na koja abad'
     )
 
+
     house.show_description()
 
     store = Store(
