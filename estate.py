@@ -30,6 +30,7 @@ class House(EsatateAbastract):
     def __init__(self,has_yard,floor_count,*args,**kwargs):
         self.has_yard=has_yard
         self.floor_count=floor_count
+        
         super().__init__(*args,**kwargs)
     def show_description(self):
         print(f"House {self.id}")
