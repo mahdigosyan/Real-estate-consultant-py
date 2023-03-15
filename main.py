@@ -20,7 +20,7 @@ if __name__=="__main__":
         built_year=1396,region=reg1,area=80,rooms_count=2,
         address='meydan emam'
         )
-    apt1.show_description()
+    # apt1.show_description()
 
 
     house = House(
@@ -29,14 +29,14 @@ if __name__=="__main__":
     )
 
 
-    house.show_description()
+    # house.show_description()
 
     store = Store(
         user=User.object_list[-1],area=30,rooms_count=0,built_year=1390,
         region=reg1,address='hminja'
     )
 
-    store.show_description()
+    # store.show_description()
 
 
     apartment_sell = Apartment(
