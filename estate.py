@@ -1,7 +1,7 @@
-from abc import abstractclassmethod
+from abc import abstractclassmethod , ABC
 from base import BaseClass
 
-class EsatateAbastract(BaseClass):
+class EsatateAbastract(ABC):
     def __init__(self,user,area,rooms_count,built_year,region,address, *args, **kwargs):
         self.user=user
         self.area=area
