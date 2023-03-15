@@ -1,5 +1,5 @@
-from base import BaseClass
-class Sell(BaseClass):
+from abc import ABC
+class Sell(ABC):
     def __init__(self,price_per_meter,discountble,convertable, *args, **kwargs):
         self.price_per_meter =price_per_meter
         self.discountble=discountble
