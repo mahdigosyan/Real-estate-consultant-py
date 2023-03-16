@@ -1,3 +1,4 @@
+from base import BaseClass
 from estate import Apartment , House , Store
 from deal import Rent , Sell
 
