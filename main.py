@@ -2,7 +2,7 @@ from random import choice
 from user import User
 from estate import Apartment , House ,Store
 from region import Region
-from advertisment import Apartment
+from advertisment import Apartment,HouseSell
 
 FIRST_NAME = ['mahdi','reza','ahmd']
 LAST_NAME = ['kameli','rezasds','ahmdi']
@@ -45,4 +45,11 @@ if __name__=="__main__":
 
     )
 
-    print(apartment_sell.show_datail())
+    apartment_sell.show_datail()
+
+
+    house_sell = HouseSell(has_yard=True, floor_count=1 , user=User.object_list[2], area=400,
+        rooms_count=6 , built_year=1380 , region=reg1, address='na koja abad',price_per_meter=10,discountble=True,convertable=False)
+    
+
+    house_sell.show_datail()
