@@ -8,17 +8,19 @@ class ApartmetSell(BaseClass,Apartment,Sell):
         self.show_description()
         self.show_price()
 
-class ApartmentRent(Apartment,Rent):
+class ApartmentRent(BaseClass,Apartment,Rent):
     pass
 
-class HouseSell(House,Sell):
+class HouseSell(BaseClass,House,Sell):
     pass
 
-class HouseRent(House,Rent):
+class HouseRent(BaseClass,House,Rent):
+    def show_detail(self):
+        self.show_description()
+        self.show_price()
+
+class StoreSell(BaseClass,Store,Sell):
     pass
 
-class StoreSell(Store,Sell):
-    pass
-
-class StoreRent(Store,Rent):
+class StoreRent(BaseClass,Store,Rent):
     pass
