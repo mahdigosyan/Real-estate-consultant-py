@@ -25,7 +25,7 @@ if __name__=="__main__":
 
     house = House(
         has_yard=True, floor_count=1 , user=User.object_list[2], area=400,
-        rooms_count=6 , built_year=1380 , region=reg1, address='na koja abad'
+        rooms_count=6 , built_year=1380 , region=reg1, address='ahmadi roshan st'
     )
 
 
