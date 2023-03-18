@@ -33,7 +33,7 @@ if __name__=="__main__":
 
     store = Store(
         user=User.object_list[-1],area=30,rooms_count=0,built_year=1390,
-        region=reg1,address='hminja'
+        region=reg1,address='khyaban emam'
     )
 
     # store.show_description()
