@@ -6,7 +6,7 @@ from advertisment import Apartment,HouseSell,ApartmetSell
 
 FIRST_NAME = ['mahdi','reza','ahmd']
 LAST_NAME = ['kameli','rezasds','ahmdi']
-PHONE = ['091245678','0918767654','09332657898',"09227654325","09126789889","09112345623"]
+PHONE = ['091245678','0918767654','0933332128',"09227654325","09126789889","09112345623"]
 if __name__=="__main__":
     for phone in PHONE:
         User(choice(FIRST_NAME),choice(LAST_NAME),phone)
